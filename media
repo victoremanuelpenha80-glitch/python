@@ -1,0 +1,8 @@
+def media(a, b, c, media):
+    a = float(input("Insira a primeira nota: "))
+    b = float(input("Insira a segunda nota: "))
+    c = float(input("Insira a terceira nota: "))
+    media = (a + b + c)/3
+    return print(f"A média das notas {a}, {b} e {c} é: {media}")
+
+media(n1,n2,n3)
